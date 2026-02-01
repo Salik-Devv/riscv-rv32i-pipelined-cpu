@@ -1,0 +1,26 @@
+# Quartus / ModelSim generated files
+db/
+incremental_db/
+output_files/
+simulation/
+work/
+
+*.bak
+*.rpt
+*.mti
+*.qpf
+*.qsf
+*.wlf
+*.log
+*.txt~
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
