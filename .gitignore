@@ -1,26 +1,101 @@
-# Quartus / ModelSim generated files
-db/
-incremental_db/
-output_files/
-simulation/
-work/
-
+###############################################################################
+# OS / Editor junk
+###############################################################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
 *.bak
-*.rpt
-*.mti
-*.qpf
-*.qsf
-*.wlf
-*.log
-*.txt~
-
-# IDE
 .idea/
 .vscode/
 
-# OS
-.DS_Store
+###############################################################################
+# Quartus Prime generated files (DO NOT COMMIT)
+###############################################################################
+**/db/
+**/incremental_db/
+**/output_files/
+**/simulation/
+**/*.qws
+**/*.qar
+**/*.rpt
+**/*.summary
+**/*.smsg
+**/*.pin
+**/*.sof
+**/*.pof
+**/*.jdi
+**/*.jic
+**/*.map
+**/*.fit
+**/*.sta
+**/*.cdf
+**/*.done
+**/*.eqn
+**/*.sld
+**/*.qdf
+**/*.qip
+**/*.qsf~
+**/*.qpf~
 
-# Python
+# Quartus locks / temp
+**/*.rdr
+**/*.rdr.flock
+**/*.lock
+
+###############################################################################
+# ModelSim / QuestaSim generated files (DO NOT COMMIT)
+###############################################################################
+tb/work/
+tb/vsim.wlf
+tb/transcript
+tb/*.mpf
+tb/*.cr.mti
+tb/tcl_stacktrace.txt
+tb/.idea/
+
+###############################################################################
+# Simulation output files (generated, not source)
+###############################################################################
+tb/trace_output.txt
+tb/final_output.txt
+
+###############################################################################
+# Python cache
+###############################################################################
 __pycache__/
 *.pyc
+
+###############################################################################
+# Build / temporary binaries
+###############################################################################
+*.o
+*.out
+*.elf
+
+###############################################################################
+# What we KEEP (explicitly documented)
+###############################################################################
+!docs/
+!docs/*.pdf
+
+!results/
+!results/*.txt
+!results/*.png
+!results/*.py
+
+!rtl/**/*.vhd
+!rtl/**/*.vhdl
+!rtl/**/*.sdc
+!rtl/**/*.qsf
+!rtl/**/*.qpf
+
+!tb/*.vhd
+!tb/*.hex
+!tb/*.txt
+
+!sw_model/**
+!LICENSE
+!README.md
+!project_report.pdf
+
