@@ -175,7 +175,6 @@ This project uses **two separate top-level modules**:
 - Eliminates long combinational paths to I/O
 - Enables realistic core Fmax measurement
 
-This separation reflects **industry-standard FPGA design practice**.
 
 ---
 
@@ -236,7 +235,7 @@ This project is provided as-is for educational purposes.
 
 ## 👤 Author
 
-Created as a demonstration of FPGA-based processor design, verification, and timing optimization.
+Mohammad Salik Dev
 
 ---
 
@@ -246,6 +245,4 @@ Created as a demonstration of FPGA-based processor design, verification, and tim
 - Intel for Quartus Prime tools
 - Open-source RISC-V community
 
----
 
-**Status**: ✅ Functionally verified | ✅ Timing closed | ✅ Ready for deployment
